@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 # AventureArcadeTeam
+=======
+# aventureteam
+>>>>>>> documentacion
