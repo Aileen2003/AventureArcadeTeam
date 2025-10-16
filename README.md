@@ -6,6 +6,9 @@ En este proyecto los roles seran designados de la siguiente manera:
     <li>Javier -> Encargado de documentacion </li>
 </ul>
 
+<h2>Nombre del videojuego</h2>
+Mystic Ruins
+
 <h2>Tema del videojuego</h2>
 Videojuego arcade de aventura, ambientado en ruinas místicas, donde el jugador debe explorar, esquivar trampas y recolectar artefactos para desbloquear niveles.
 
