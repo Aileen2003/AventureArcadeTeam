@@ -1,14 +1,17 @@
+## 🧾 Prototipo de Pantalla Arcade (HTML de Referencia)
+
+```html
 <!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Temple Run Arcade: Reliquias Malditas</title>
+  <title>Mystic Ruins — Arcade</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./style.css" rel="stylesheet">
 </head>
 <body>
   <main class="screen">
-    <h1 class="logo">Temple Run Arcade:<br><span>Reliquias Malditas</span></h1>
+    <h1 class="logo">Mystic Ruins:<br><span>Arcade Adventure</span></h1>
 
     <nav class="menu">
       <button id="playBtn">JUGAR</button>
@@ -25,7 +28,7 @@
       <li><b>W / ↑</b> — Saltar</li>
       <li><b>S / ↓</b> — Deslizar</li>
       <li><b>A-D / ← →</b> — Esquivar</li>
-      <li><b>Espacio</b> — Usar orbe</li>
+      <li><b>Espacio</b> — Activar artefacto</li>
     </ul>
     <button class="close">Cerrar</button>
   </section>
@@ -42,7 +45,7 @@
   </section>
 
   <script>
-    const play = () => alert("¡Run! Prototipo en construcción 🏃‍♀️💨");
+    const play = () => alert("¡Adventure Start! Prototipo en construcción ⚔️✨");
     const $ = (s) => document.querySelector(s);
     $("#playBtn").onclick = play;
     $("#controlsBtn").onclick = () => toggle("#controls", false);
